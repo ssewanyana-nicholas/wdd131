@@ -1,0 +1,25 @@
+/* Styles for larger screens */
+@media (min-width: 480px) {
+    .gallery {
+        justify-content: space-around;
+    }
+
+    figure {
+        width: 35%;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery {
+        justify-content: space-between;
+    }
+
+    figure {
+        width: 20%;
+    }
+}
