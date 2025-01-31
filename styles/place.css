@@ -1,0 +1,103 @@
+:root {
+    --primary-color: #ffcc00; /* Yellow - inspired by Uganda's flag */
+    --secondary-color: #000000; /* Black - inspired by Uganda's flag */
+    --font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: black;
+    text-align: center;
+    padding: 0.5rem;
+    width: 100%;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+header h1::after, footer::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: var(--secondary-color);
+    margin: 10px auto 0;
+}
+
+.hero-img {
+    width: 100%;
+    max-height: 80vh;
+    overflow: hidden;
+    position: relative;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.hero-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0.3em;
+    border-radius: 8px;
+}
+
+aside {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.table-left {
+    top: 33%;
+    left: 2%;
+    box-sizing: border-box;
+}
+
+.table-right {
+    top: 58%;
+    right: 2%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-left: 0;
+}
+
+th {
+    background-color: #d80027; /* Red from Uganda's flag */
+    color: white;
+    text-align: center;
+}
+
+td {
+    text-align: left;
+}
