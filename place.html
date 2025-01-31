@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Course WDD131 - Country Page - Nicholas Ssewanyana">
-<meta name="author" content="Nicholas Ssewanyana">
-<title>Country Page - Uganda</title>
-<link rel="stylesheet" href="styles/place.css">  
-<link rel="stylesheet" href="styles/place-large.css"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<script src="scripts/place.js" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course WDD131 - Country Page - Nicholas Ssewanyana">
+    <meta name="author" content="Nicholas Ssewanyana">
+    <title>Country Page - Uganda</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
 </head>
+
 <body>
     <header>
         <h1>Uganda</h1>
@@ -23,25 +25,50 @@
             <picture>
                 <source media="(min-width: 1024px)" srcset="images/uganda2.webp">
                 <source media="(max-width: 768px)" srcset="images/uganda_hero.webp">
-                <source media="(min-width: 768px)" srcset="images/uganda_hero.webp">
-                <img src="images/uganda_sunset.webp" alt="Ugandan Experience" class="hero-svg">
+                <img src="images/uganda_hero.webp" alt="Ugandan Experience" class="hero-svg">
             </picture>
         </div>
 
         <aside class="table-left">
             <table id="data">
                 <thead>
-                    <tr><th colspan="2">Data</th></tr>
+                    <tr>
+                        <th colspan="2">Data</th>
+                    </tr>
                 </thead>
                 <tbody>
-                    <tr><td>Area</td><td>241,038 km²</td></tr>
-                    <tr><td>Population</td><td>45,850,000</td></tr>
-                    <tr><td>Capital</td><td>Kampala</td></tr>
-                    <tr><td>Languages</td><td>English, Swahili</td></tr>
-                    <tr><td>Currency</td><td>Ugandan Shilling (UGX)</td></tr>
-                    <tr><td>Time Zone</td><td>UTC +3</td></tr>
-                    <tr><td>Calling Code</td><td>+256</td></tr>
-                    <tr><td>Internet TLD</td><td>.ug</td></tr>
+                    <tr>
+                        <td>Area</td>
+                        <td>241,038 km²</td>
+                    </tr>
+                    <tr>
+                        <td>Population</td>
+                        <td>45,850,000</td>
+                    </tr>
+                    <tr>
+                        <td>Capital</td>
+                        <td>Kampala</td>
+                    </tr>
+                    <tr>
+                        <td>Languages</td>
+                        <td>English, Swahili</td>
+                    </tr>
+                    <tr>
+                        <td>Currency</td>
+                        <td>Ugandan Shilling (UGX)</td>
+                    </tr>
+                    <tr>
+                        <td>Time Zone</td>
+                        <td>UTC +3</td>
+                    </tr>
+                    <tr>
+                        <td>Calling Code</td>
+                        <td>+256</td>
+                    </tr>
+                    <tr>
+                        <td>Internet TLD</td>
+                        <td>.ug</td>
+                    </tr>
                 </tbody>
             </table>
         </aside>
@@ -49,13 +76,30 @@
         <aside class="table-right">
             <table id="weather">
                 <thead>
-                    <tr><th colspan="2">Weather <span>☀️</span></th></tr>
+                    <th colspan="2">Weather
+                        <picture>
+                            <source media="(min-width: 768px)" srcset="images/uganda_sunset.svg" class="svga" >
+                            <img src="images/sun_sunny.webp" alt="sun sunny">
+                        </picture>
+                    </th>
                 </thead>
                 <tbody>
-                    <tr><td>Temperature</td><td>#</td></tr>
-                    <tr><td>Conditions</td><td>#</td></tr>
-                    <tr><td>Wind</td><td>#</td></tr>
-                    <tr><td>Wind Chill</td><td>#</td></tr>
+                    <tr>
+                        <td>Temperature</td>
+                        <td>#</td>
+                    </tr>
+                    <tr>
+                        <td>Conditions</td>
+                        <td>#</td>
+                    </tr>
+                    <tr>
+                        <td>Wind</td>
+                        <td>#</td>
+                    </tr>
+                    <tr>
+                        <td>Wind Chill</td>
+                        <td>#</td>
+                    </tr>
                 </tbody>
             </table>
         </aside>
@@ -65,4 +109,5 @@
         <p id="footer-content">© 2025 Uganda Tourism Page by Nicholas Ssewanyana</p>
     </footer>
 </body>
+
 </html>
