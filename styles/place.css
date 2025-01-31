@@ -39,6 +39,8 @@ h1 {
     text-transform: uppercase;
 }
 
+
+
 header h1::after,
 footer::after {
     content: '';
